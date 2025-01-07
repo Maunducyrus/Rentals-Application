@@ -10,6 +10,10 @@ body{
   font-family: "Poppins", sans-serif;
   background-color: #fff;
 }
+.container {
+  max-width: 80%;
+  margin: auto;
+}
 
 /* #root {
   max-width: 1280px;
