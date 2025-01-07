@@ -19,6 +19,11 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
 
 
 /* #root {
