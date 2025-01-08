@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <div className="nav">
                 <ul>
-                    {navigator.maxTouchPoints((list, index) => (
+                    {nav.maxTouchPoints((list, index) => (
                         <li key={index}>
                             <Link to={list.path}>{list.text}</Link>
                         </li>
