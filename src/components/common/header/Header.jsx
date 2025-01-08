@@ -9,6 +9,15 @@ const Header = () => {
                 </div>
                     <img src="./images/logo.png" alt="" />
             </div>
+            <div className="nav">
+                <ul>
+                    {navigator.maxTouchPoints((list, index) => (
+                        <li key={index}>
+                            <Link to={list.path}>{list.text}</Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </header>
     )
 }
