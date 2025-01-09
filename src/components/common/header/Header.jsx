@@ -12,7 +12,7 @@ const Header = () => {
                     <img src="./images/logo.png" alt="" />
             </div>
             <div className="nav">
-                <ul>
+                <ul className="flex">
                     {nav.map((list, index) => (
                         <li key={index}>
                             <Link to={list.path}>{list.text}</Link>
