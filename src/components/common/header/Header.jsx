@@ -20,6 +20,11 @@ const Header = () => {
                     ))}
                 </ul>
             </div>
+            <div className="button flex">
+                <h4>
+                <span>2</span>
+                </h4>
+            </div>
         </header>
     )
 }
