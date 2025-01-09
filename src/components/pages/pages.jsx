@@ -4,14 +4,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const pages = () => {
     return (
-        <>
-        <Router>
-            <Header />
-            <Switch>
+    //     <>
+    //     <Router>
+    //         <Header />
+    //         <Switch>
 
-            </Switch>
-        </Router>
-        </>
+    //         </Switch>
+    //     </Router>
+    //     </>
+    <>Pages</>
     )
 }
 
