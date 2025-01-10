@@ -8,7 +8,9 @@ const pages = () => {
         <Router>
             <Header />
             <Switch>
-
+            <Route exact path="/" component={() => <div>Home Page</div>} />
+          <Route path="/about" component={() => <div>About Page</div>} />
+          <Route path="/services" component={() => <div>Services Page</div>} />
             </Switch>
         </Router>
         </>
