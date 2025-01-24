@@ -8,9 +8,9 @@ const Pages = () => {
         <Router>
             <Header />
             <Routes>
-             <Route exact path="/" component={() => <div>Home Page</div>} />
-             <Route path="/about" component={() => <div>About Page</div>} />
-             <Route path="/services" component={() => <div>Services Page</div>} />
+             <Route exact path="/" element={() => <div>Home Page</div>} />
+             <Route path="/about" element={() => <div>About Page</div>} />
+             <Route path="/services" element={() => <div>Services Page</div>} />
             </Routes>
         </Router>
         </>

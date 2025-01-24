@@ -1,5 +1,5 @@
 import "./App.css"
-import Pages from "./components/pages/Pages.jsx"
+import Pages from "./components/pages/Pages.jsx";
 
 function App() {
     return (
