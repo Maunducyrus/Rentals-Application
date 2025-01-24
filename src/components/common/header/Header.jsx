@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="logo">
 
                 </div>
-                    <img src="./images/logo.png" alt="" />
+                <img src="/images/logo.png" alt="Logo" />
             
             <div className="nav">
                 <ul className="flex">
@@ -44,3 +44,7 @@ const Header = () => {
     )
 
 }
+
+
+
+export default Header;
