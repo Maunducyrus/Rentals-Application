@@ -24,6 +24,14 @@ a {
   color: #000;
   text-transform: capitalize;
 }
+ul {
+  list-style-type: none;
+}
+button {
+  border-radius: 5px;
+  padding: 17px 30px;
+  background-color: #27ae60;
+}
 
 
 /* #root {
