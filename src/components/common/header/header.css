@@ -1,0 +1,16 @@
+header {
+    background-color: #fff;
+    height: 10vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+header img {
+    width: 170px;
+}
+header a {
+    margin-left: 30px;
+    transition: ;
+}
