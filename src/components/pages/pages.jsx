@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../common/header/Header"
+import Header from "../common/header/Header.jsx"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const pages = () => {
+const Pages = () => {
     return (
         <>
         <Router>
@@ -19,4 +19,4 @@ const pages = () => {
 
 
 
-export default pages;
+export default Pages;

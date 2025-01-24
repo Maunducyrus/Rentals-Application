@@ -1,12 +1,12 @@
 import "./App.css"
-import pages from "./components/pages/pages.jsx"
+import Pages from "./components/pages/Pages.jsx"
 
 function App() {
     return (
         <>
-            <pages />
+            <Pages />
         </>
-    )
+    );
 }
 
 
