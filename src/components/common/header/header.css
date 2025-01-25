@@ -44,4 +44,11 @@ header .toggle {
     header .button {
         display: none;
     }
+    header .nav .flex {
+        display: none;
+    }
+    header .toggle {
+        display: block;
+        margin-top: 20px;
+    }
 }
