@@ -34,3 +34,14 @@ header h4{
 header .toggle {
     display: none;
 }
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+    header img {
+        margin-top: 30px;
+    }
+    header .button {
+        display: none;
+    }
+}
