@@ -1,9 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 import "./header.css";
 import { Link } from "react-router-dom"
 import { nav } from "../../data/Data"
 
 const Header = () => {
+    Const [navlist, setnavlist] = useState()
     return (
         <>
         <header>
