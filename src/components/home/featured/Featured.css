@@ -6,5 +6,7 @@
     cursor: pointer;
 }
 .featured img {
-    
+    width: 65px;
+    height: 65px;
+    margin: auto;
 }
