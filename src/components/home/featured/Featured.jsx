@@ -1,9 +1,14 @@
 import React from "react"
+import "./Featured.css"
 
 const Featured = () => {
-    return (
-        <div>Featured</div>
-    )
+    return
+     <>
+    <section>
+        
+    </section>
+    </>
+    
 }
 
 export default Featured;
