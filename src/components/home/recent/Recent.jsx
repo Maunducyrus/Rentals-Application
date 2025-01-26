@@ -2,8 +2,8 @@ import React from 'react'
 
 const Recent = () => {
   return (
-    <div>Recent</div>
-  )
+  <>Recent</>
+    )
 }
 
 export default Recent
