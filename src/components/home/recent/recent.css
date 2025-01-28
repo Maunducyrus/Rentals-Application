@@ -1,0 +1,15 @@
+.recent .text {
+    padding: 30px;
+}
+.recent .category span {
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+.recent .category i {
+    font-size: 20px;
+    color: #bec7d8;
+}
+.recent
