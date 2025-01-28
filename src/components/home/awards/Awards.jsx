@@ -10,7 +10,13 @@ export const Awards = () => {
         <Heading title='Over 1,24,000+ Happy User Being And Still They Love Our Service' subtitle='Our Awards' />
 
         <div className="content grid4 mtop">
-          
+          {Awards.map((val, index) => {
+            return (
+              <div className="box" key={index}>
+
+              </div>
+            )
+          })}
         </div>
       </div>
     </div>
