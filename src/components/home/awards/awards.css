@@ -7,3 +7,8 @@
     display: flex;
     flex-direction: row-reverse;
 }
+.awards .heading h1{
+    color: #fff;
+    font-style: 30px;
+    font-weight: 400;
+}
