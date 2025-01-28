@@ -22,3 +22,9 @@
     font-style: 32px;
     color: #fff;
 }
+.awards h1 {
+    font-style: 50px;
+}
+.awards p {
+    color: grey;
+}
