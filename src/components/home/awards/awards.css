@@ -12,3 +12,13 @@
     font-style: 30px;
     font-weight: 400;
 }
+.awards .icon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4% 50%;
+    font-style: 32px;
+    color: #fff;
+}
