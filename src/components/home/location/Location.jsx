@@ -1,10 +1,12 @@
 import React from 'react'
 import './location.css'
 
-export const Location = () => {
+const Location = () => {
   return (
     <>
     
     </>
     )
 }
+
+export default Location
