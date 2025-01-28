@@ -100,3 +100,8 @@ img {
   border-radius: 50px;
   font-size: 20px;
 }
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
