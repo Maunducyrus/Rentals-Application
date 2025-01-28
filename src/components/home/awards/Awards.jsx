@@ -13,7 +13,11 @@ export const Awards = () => {
           {Awards.map((val, index) => {
             return (
               <div className="box" key={index}>
-
+                <div className="icon">
+                  <span className={val.icon}></span>
+                </div>
+                <h1>{val.num}</h1>
+                <p>{val.name}</p>
               </div>
             )
           })}
