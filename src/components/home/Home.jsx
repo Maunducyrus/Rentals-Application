@@ -10,7 +10,8 @@ const Home = () => {
         <Featured />
         <Recent />
         <Awards />
-        
+
+        </>
     )
 }
 
