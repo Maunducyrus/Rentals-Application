@@ -7,7 +7,7 @@ export const Awards = () => {
     <>
     <div className="awards padding">
       <div className="container">
-        <Heading />
+        <Heading title='Over 1,24,000+ Happy User Being And Still They Love Our Service' subtitle='Our Awards' />
       </div>
     </div>
     </>
