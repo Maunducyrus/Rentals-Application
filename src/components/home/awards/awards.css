@@ -1,0 +1,9 @@
+.awards {
+    background-color: #122947;
+    color: #fff;
+    text-align: center;
+}
+.awards .heading {
+    display: flex;
+    flex-direction: row-reverse;
+}
