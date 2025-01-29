@@ -20,5 +20,17 @@
 }
 .location .overlay::after {
     content: "";
-    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 340px;
+    height: 210px;
+    background: rgb(15 28 47 / 30% );
+    z-index: -1;
+    margin: 20px;
+    border-radius: 5px;
+}
+.location h5 {
+    font-size: 18px;
+    font-weight: 500;
 }
