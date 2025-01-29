@@ -49,6 +49,10 @@
     color: grey;
     margin-right: 5px;
 }
+.team ul {
+    display: inline-block;
+    margin-top: 10px;
+}
 .team ul li {
     display: inline-block;
     width: 40px;
