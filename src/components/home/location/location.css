@@ -5,3 +5,16 @@
 .location img {
     border-radius: 5px;
 }
+.location .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    color: #fff;
+    z-index: 2222;
+}
