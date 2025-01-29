@@ -1,4 +1,5 @@
 import React from 'react'
+import "./team.css"
 
 export const Team = () => {
   return (
@@ -26,6 +27,17 @@ export const Team = () => {
                                 <li key={index}> {icon}</li>
                             ))}
                         </ul>
+                        <div className="button flex">
+                            <button>
+                                <i className="fa fa-envelope"></i>
+                                Message
+                            </button>
+                        </div>
+                        <div className="button btn4">
+                            <button>
+                                <i className="fa fa-phone-alt"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             )
