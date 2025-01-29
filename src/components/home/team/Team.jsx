@@ -12,6 +12,12 @@ export const Team = () => {
             return (
                 <div className="box" key={index}>
                     <button className='btn3'>{val.list} Listings</button>
+                    <div className="details">
+                        <div className="img">
+                            <img src={val.cover} alt="" />
+                            <i className="fa"></i>
+                        </div>
+                    </div>
                 </div>
             )
             
