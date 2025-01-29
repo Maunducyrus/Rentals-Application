@@ -39,3 +39,9 @@
     margin-right: 20px;
     opacity: 0.8;
 }
+@media screen and (max-width: 800px) {
+    .location .overlay {
+        width: 280px;
+        height: 170px;
+    }
+}
