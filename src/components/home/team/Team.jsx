@@ -18,6 +18,14 @@ export const Team = () => {
                             <i className="fa fa-circle-check"></i>
                         </div>
                         <i className="fa fa-location-dot"></i>
+                        <label htmlFor="">{val.address}</label>
+                        <h4>{val.name}</h4>
+
+                        <ul>
+                            {val.icon.map((icon, index) => (
+                                <li key={index}> {icon}</li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             )
