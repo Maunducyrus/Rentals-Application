@@ -11,7 +11,7 @@ export const Team = () => {
         {Team.map((val, index) => {
             return (
                 <div className="box" key={index}>
-                    <button></button>
+                    <button className='btn3'>{val.list} Listings</button>
                 </div>
             )
             
