@@ -5,3 +5,14 @@
     padding: 2rem;
     transition: 0.5s;
 }
+.team .box:hover {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    cursor: pointer;
+}
+.team .details {
+    text-align: center;
+    margin-top: 30px;
+}
+.team .img {
+    width: 90px;
+}
