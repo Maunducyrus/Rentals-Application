@@ -15,4 +15,27 @@
 }
 .team .img {
     width: 90px;
+    height: 90px;
+    margin: auto;
+    position: relative;
+}
+.team img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+.team .img i {
+    color: #108be7;
+    font-size: 17px;
+    position: absolute;
+    top: 35px;
+    right: -10px;
+}
+.team .img::after {
+    content: "";
+    position: absolute;
+    top: -15;
+    left: -15px;
+    width: 110px;
+    height: 110px;
 }
