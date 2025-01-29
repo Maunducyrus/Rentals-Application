@@ -34,3 +34,8 @@
     font-size: 18px;
     font-weight: 500;
 }
+.location label {
+    color: #fff;
+    margin-right: 20px;
+    opacity: 0.8;
+}
