@@ -105,3 +105,7 @@ img {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
 }
+.btn4 {
+  background-color: #000;
+  color: #fff;
+}
