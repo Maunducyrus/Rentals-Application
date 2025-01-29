@@ -1,0 +1,7 @@
+.location .box {
+    position: relative;
+    border-radius: 5px;
+}
+.location img {
+    border-radius: 5px;
+}
