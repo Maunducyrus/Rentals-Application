@@ -1,0 +1,7 @@
+.team .box {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid rgb(62 28 131 / 10%);
+    padding: 2rem;
+    transition: 0.5s;
+}
