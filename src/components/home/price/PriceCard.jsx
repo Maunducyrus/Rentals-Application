@@ -31,10 +31,12 @@ export const PriceCard = () => {
                     )
                 })}
             </ul>
-            <button className="btn5" style = {{
-                       background :change === "color" ? "#dc35451d" : "#27ae601f",
-                       color : change === "color" ? "#dc3848" : "#27ae60", }}>
-                        
+            <button 
+            className="btn5" 
+            style = {{
+                       background : item.plan === "Standard" ? "#dc35451d" : "#27ae601f",
+                       color : item.plan === "Standard" ? "#dc3848" : "#27ae60", }}>
+
                        </button>
         </div>
     }
