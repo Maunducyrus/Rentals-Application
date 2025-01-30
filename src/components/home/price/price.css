@@ -13,3 +13,12 @@
 .price .box:nth-child(3) .topbtn button {
 display: none;
 }
+.price h3 {
+    font-size: 22px;
+}
+.price h1 {
+    font-size: 60px;
+}
+.price span {
+    font-size: 30px;
+}
