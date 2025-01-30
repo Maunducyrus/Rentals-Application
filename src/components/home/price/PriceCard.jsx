@@ -19,7 +19,8 @@ export const PriceCard = () => {
                 {item.list.map((val) =>{
                   <li>
                     <label htmlFor="" style = {{
-                        
+                       background :change === "color" ? "#dc35451d" : "#27ae601f",
+                       color : change === "color" ? "#dc3848" : "#27"   
                     }}>
                         
                     </label>
