@@ -18,7 +18,9 @@ export const PriceCard = () => {
             <ul>
                 {item.list.map((val) =>{
                   <li>
-                    
+                    <label htmlFor="">
+                        
+                    </label>
                   </li>
 
                 })}
