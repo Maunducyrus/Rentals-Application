@@ -36,7 +36,7 @@ export const PriceCard = () => {
             style = {{
                        background : item.plan === "Standard" ? "#dc35451d" : "#27ae601f",
                        color : item.plan === "Standard" ? "#dc3848" : "#27ae60", }}>
-
+                        Start {item}
                        </button>
         </div>
     }
