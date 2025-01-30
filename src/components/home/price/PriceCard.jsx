@@ -14,6 +14,15 @@ export const PriceCard = () => {
                 <span>$</span> {item.price}
             </h1>
             <p>{item.ptext}</p>
+
+            <ul>
+                {item.list.map((val) =>{
+                  <li>
+                    
+                  </li>
+
+                })}
+            </ul>
         </div>
     }
 
