@@ -18,7 +18,7 @@ export const PriceCard = () => {
             <ul>
                 {item.list.map((val) => {
                     const {icon, text, change} = val;
-                  <li>
+                  return <li>
                     <label htmlFor="" style = {{
                        background :change === "color" ? "#dc35451d" : "#27ae601f",
                        color : change === "color" ? "#dc3848" : "#27ae60", 
