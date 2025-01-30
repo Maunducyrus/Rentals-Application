@@ -5,7 +5,7 @@ export const Price = () => {
     <>
     <section className="price padding">
         <div className="container">
-            
+            <Heading />
         </div>
     </section>
     </>
