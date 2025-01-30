@@ -1,4 +1,6 @@
 import React from 'react'
+import Heading from '../../Heading'
+import PriceCard from "./price.css"
 import { PriceCard } from './PriceCard'
 
 export const Price = () => {
