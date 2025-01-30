@@ -26,5 +26,13 @@ display: none;
 .price ul {
     margin-top: 40px;
 }
+.price ul li {
+    margin-bottom: 20px;
+}
+.price label {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
 
 
