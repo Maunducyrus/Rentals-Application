@@ -7,7 +7,7 @@ export const PriceCard = () => {
         {Price.map((item, index) => {
         return <div className="box shadow">
             <div className="topbtn">
-                <button></button>
+                <button className='btn3'>{item.best}</button>
             </div>
         </div>
     }
