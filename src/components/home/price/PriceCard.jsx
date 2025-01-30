@@ -20,9 +20,9 @@ export const PriceCard = () => {
                   <li>
                     <label htmlFor="" style = {{
                        background :change === "color" ? "#dc35451d" : "#27ae601f",
-                       color : change === "color" ? "#dc3848" : "#27"   
+                       color : change === "color" ? "#dc3848" : "#27ae60", 
                     }}>
-                        
+                        {icon}
                     </label>
                   </li>
 
