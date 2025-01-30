@@ -2,6 +2,10 @@ import React from 'react'
 
 export const Price = () => {
   return (
-    <div>Price</div>
+    <>
+    <section className="price padding">
+        
+    </section>
+    </>
   )
 }
