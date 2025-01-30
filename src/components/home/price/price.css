@@ -9,7 +9,7 @@
 .price button {
     margin-bottom: 20px;
 }
-.price .box:nth-child(1),
-.price .box:nth-child(3) {
-
+.price .box:nth-child(1) .topbtn button,
+.price .box:nth-child(3) .topbtn button {
+display: none;
 }
