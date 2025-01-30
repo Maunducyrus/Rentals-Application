@@ -26,6 +26,7 @@ export const PriceCard = () => {
                     }}>
                         {icon}
                     </label>
+                    <p>{text}</p>
                   </li>
                     )
                 })}
