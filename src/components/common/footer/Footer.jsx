@@ -31,8 +31,7 @@ export const Footer = () => {
             </div>
         </div>
 
-        {footer.map((val) => {
-            return (
+        {Footer.map((val) => (
                 <div className="box">
                     <h3>{val.title}</h3>
                     <ul>
@@ -41,10 +40,14 @@ export const Footer = () => {
                         ))}
                     </ul>
                 </div>
-            )
-        })}
+            
+        )
+        )}
         </div> 
     </footer>
+    <div className="legal">
+        <span>@ 2024 RentUp. Designed By maunducyrus</span>
+    </div>
     </>
   )
 }
