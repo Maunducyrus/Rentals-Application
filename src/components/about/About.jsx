@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../images/about.jpg'
 import Back from '../common/Back'
+import Heading from '../common/Heading'
 
 export const About = () => {
   return (
