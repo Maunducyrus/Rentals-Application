@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Back = () => {
+export const Back = ({name, title, cover}) => {
   return (
     <>
     <div className="back">
