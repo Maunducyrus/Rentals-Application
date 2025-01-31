@@ -11,9 +11,12 @@ export const Contact = () => {
             <form action="" className='shadow'>
                 <h4>Fillup The Form</h4>
                 <div>
-                    <input type="text" placeholder='Name' />
-                    <input type="email" placeholder='Email' />
+                    <input type="text" placeholder='Name' name='' id='' />
+                    <input type="email" placeholder='Email' name='' id=''/>
                 </div>
+                <input type="text" placeholder='Subject' name='' id='' />
+                <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
+                <button>Submit Request</button>
             </form>
         </div>
     </section>
