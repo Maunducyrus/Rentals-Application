@@ -7,7 +7,6 @@ export const Services = () => {
   return (
     <>
     <div className="service mb">
-        {/* {<Back name='' title='' cover={} />} */}
         <Back name='Services' title='Services - All Services' cover={img} />
         <div className="featured container">
             <FeaturedCard />
