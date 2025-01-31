@@ -1,0 +1,9 @@
+.contact form div {
+    display: flex;
+}
+.contact textarea {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 1005px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
