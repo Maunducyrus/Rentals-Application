@@ -7,7 +7,9 @@
     border-radius: 5px;
     margin-bottom: 20px;
 }
+.contact textarea,
 .contact input {
+    width: 100%;
     margin-right: 10px;
     margin-bottom: 20px;
 }
@@ -21,5 +23,8 @@
     }
     .contact form div {
         flex-direction: column;
+    }
+    .contact input {
+        width: 100%;
     }
 }
