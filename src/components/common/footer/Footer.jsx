@@ -20,7 +20,9 @@ export const Footer = () => {
        <div className="container">
         <div className="box">
             <div className="logo">
-                
+                <img src="../images/logo-light.png" alt="" />
+                <h2>Do You Need Help With Anything</h2>
+                <p></p>
             </div>
         </div>
         </div> 
