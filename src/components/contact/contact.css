@@ -7,3 +7,10 @@
     border-radius: 5px;
     margin-bottom: 20px;
 }
+.contact input {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact form {
+    padding: 30px;
+}
