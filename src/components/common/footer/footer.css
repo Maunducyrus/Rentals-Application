@@ -27,3 +27,13 @@ footer p {
     color: grey;
     margin: 20px 0;
 }
+footer input {
+    background-color: #fff;
+    padding: 17px;
+    width: 100%;
+    border-radius: 5px;
+}
+footer h3 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
