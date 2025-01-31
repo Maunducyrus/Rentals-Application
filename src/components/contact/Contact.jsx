@@ -10,6 +10,10 @@ export const Contact = () => {
         <div className="container">
             <form action="" className='shadow'>
                 <h4>Fillup The Form</h4>
+                <div>
+                    <input type="text" placeholder='Name' />
+                    <input type="email" placeholder='Email' />
+                </div>
             </form>
         </div>
     </section>
