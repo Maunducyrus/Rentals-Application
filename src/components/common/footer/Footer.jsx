@@ -15,6 +15,10 @@ export const Footer = () => {
             </div>
         </div>
     </section>
+
+    <footer>
+        
+    </footer>
     </>
   )
 }
