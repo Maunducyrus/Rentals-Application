@@ -2,6 +2,12 @@ import React from 'react'
 
 export const Back = () => {
   return (
-    <div>Back</div>
+    <>
+    <div className="back">
+        <div className="container">
+            
+        </div>
+    </div>
+    </>
   )
 }
