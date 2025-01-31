@@ -31,7 +31,22 @@ export const Footer = () => {
             </div>
         </div>
 
-        
+        {footer.map((val) => {
+            return (
+                <div className="box">
+                    <h2>{val.title}</h2>
+                    <ul>
+                        {val.links.map((link) => {
+                            return (
+                                <li>
+                                    <a href={link.url}>{link.title}</a>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </div>
+            )
+        })}
         </div> 
     </footer>
     </>
