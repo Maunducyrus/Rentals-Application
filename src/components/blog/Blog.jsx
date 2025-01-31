@@ -7,7 +7,7 @@ export const Blog = () => {
   return (
     <>
     <section className='blog-out mb'>
-          <Back name='' title='' cover={img} />
+          <Back name='' title='Blog Grid - Our Blogs' cover={img} />
           <div className="container recent">
             <RecentCard />
           </div>
