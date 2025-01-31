@@ -22,7 +22,7 @@ export const Footer = () => {
             <div className="logo">
                 <img src="../images/logo-light.png" alt="" />
                 <h2>Do You Need Help With Anything</h2>
-                <p></p>
+                <p>Receive updates, hot deals, tutorials, discounts sent straight in your inbox every month</p>
             </div>
         </div>
         </div> 
