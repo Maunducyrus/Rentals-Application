@@ -22,7 +22,9 @@ export const About = () => {
                   </p>
                   <button className='btn2'>More About Us</button>
     </div>
-    
+    <div className="right row">
+        <img src="./immio.jpg" alt="" />
+    </div>
    </section>
    </>
   )
