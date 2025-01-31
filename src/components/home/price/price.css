@@ -33,6 +33,16 @@ display: none;
     width: 30px;
     height: 30px;
     line-height: 30px;
+    border-radius: 50%;
+}
+.price .btn5 {
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .price .content .box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 
