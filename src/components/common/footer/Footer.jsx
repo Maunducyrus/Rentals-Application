@@ -17,7 +17,13 @@ export const Footer = () => {
     </section>
 
     <footer>
-        
+       <div className="container">
+        <div className="box">
+            <div className="logo">
+                
+            </div>
+        </div>
+        </div> 
     </footer>
     </>
   )
