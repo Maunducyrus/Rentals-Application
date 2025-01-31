@@ -5,7 +5,7 @@ export const About = () => {
   return (
    <>
    <section className='about'>
-    <Back />
+    <Back name='About Us' title='About us - Who We Are ?' />
    </section>
    </>
   )
