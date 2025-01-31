@@ -20,8 +20,9 @@ export const About = () => {
                  amet consectetur adipisicing elit. Provident sapiente obcaecati
                   porro aliquam tenetur amet. Quam ab soluta corporis, nemo minus, reprehenderit vitae voluptatum odit commodi amet quibusdam quis nihil.
                   </p>
-        
+                  <button className='btn2'>More About Us</button>
     </div>
+    
    </section>
    </>
   )
