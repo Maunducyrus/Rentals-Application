@@ -34,15 +34,11 @@ export const Footer = () => {
         {footer.map((val) => {
             return (
                 <div className="box">
-                    <h2>{val.title}</h2>
+                    <h3>{val.title}</h3>
                     <ul>
-                        {val.links.map((link) => {
-                            return (
-                                <li>
-                                    <a href={link.url}>{link.title}</a>
-                                </li>
-                            )
-                        })}
+                        {val.text.map((items) => (
+                            <li>{items.list}</li>
+                        ))}
                     </ul>
                 </div>
             )
