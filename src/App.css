@@ -156,4 +156,14 @@ img {
   .grid5 {
     grid-template-columns: repeat(2, 1fr);
   }
+  .heading {
+    width: 100%;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .back,
+  .back ::after {
+    height: 30vh;
+  }
 }
