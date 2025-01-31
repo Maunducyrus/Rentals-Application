@@ -39,9 +39,14 @@ display: none;
     width: 100%;
 }
 @media screen and (max-width: 800px) {
+    .price .content {
+        flex-direction: column;
+    }
     .price .content .box {
         width: 100%;
-        margin-bottom: 30px;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 50px;
     }
 }
 
