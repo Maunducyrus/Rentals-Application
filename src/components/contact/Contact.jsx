@@ -7,6 +7,11 @@ export const Contact = () => {
     <>
     <section className='contact mb'>
         <Back name='Contact Us' title='Get Helps & Friendly Support' cover={img} />
+        <div className="container">
+            <form action="" className='shadow'>
+                <h4>Fillup The Form</h4>
+            </form>
+        </div>
     </section>
     </>
   )
