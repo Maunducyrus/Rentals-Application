@@ -17,3 +17,13 @@ footer .container {
     grid-template-columns: 6fr 2fr 2fr 1fr;
     grid-gap: 20px;
 }
+footer img {
+    width: 150px;
+}
+footer h2 {
+    font-weight: 500;
+}
+footer p {
+    color: grey;
+    margin: 20px 0;
+}
