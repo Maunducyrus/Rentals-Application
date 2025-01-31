@@ -1,4 +1,5 @@
 import React from 'react'
+import './about.css'
 import img from '../images/about.jpg'
 import Back from '../common/Back'
 import Heading from '../common/Heading'
