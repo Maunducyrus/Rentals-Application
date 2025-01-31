@@ -118,3 +118,28 @@ img {
   border: 5px solid #27ae601f;
   background: #fff;
 }
+.back {
+  height: 40vh;
+  position: relative;
+}
+.back img {
+  width: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+.back::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background: rgba(17, 40, 72, 0.629);
+}
+.back .container {
+  color: #fff;
+  padding: 120px 0;
+}
