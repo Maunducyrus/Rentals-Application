@@ -1,4 +1,5 @@
 import React from 'react'
+import { footer } from '../../data/Data'
 import "./footer.css"
 
 export const Footer = () => {
@@ -31,7 +32,7 @@ export const Footer = () => {
             </div>
         </div>
 
-        {Footer.map((val) => (
+        {footer.map((val) => (
                 <div className="box">
                     <h3>{val.title}</h3>
                     <ul>
