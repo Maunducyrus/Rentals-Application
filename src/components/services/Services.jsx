@@ -6,12 +6,12 @@ import FeaturedCard from '../home/featured/FeaturedCard'
 export const Services = () => {
   return (
     <>
-    <div className="service mb">
+    <section className="service mb">
         <Back name='Services' title='Services - All Services' cover={img} />
         <div className="featured container">
             <FeaturedCard />
         </div>
-    </div>
+    </section>
     </>
   )
 }
