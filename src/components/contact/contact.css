@@ -14,3 +14,12 @@
 .contact form {
     padding: 30px;
 }
+@media screen and (max-width: 768px){
+    .contact h4 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact form div {
+        flex-direction: column;
+    }
+}
